@@ -28,7 +28,7 @@
 
                 // Also, calculate the file-size which has transferred
                 fileSize = xhr.responseText.length;
-
+                console.log("file size " + fileSize);
                 // Calculate the connection-speed
                 var speed = (fileSize * 8) / ((endTime - startTime)/1000) / 1024;
 
